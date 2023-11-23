@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+}
+section{
+    max-width: 1200px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+nav{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.hed h2{
+    color: rgb(12, 233, 196);
+    text-transform: capitalize;
+}
+.hed span{
+    color: black;
+}
+.hed a{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    text-transform: capitalize;
+    margin: 10px;
+    font-family: serif;
+}
+.hed .login{
+    padding: 10px 15px;
+    background-color: rgb(12, 233, 196);
+    color: white;
+    border-radius: 10px;
+}
+.hed input{
+    border: 1px solid rgb(186, 186, 186);
+    padding: 10px 20px;
+}
+.hed ::placeholder{
+    color: rgb(75, 72, 72);
+    text-transform: uppercase;
+}
+.hedcontent{
+ background: linear-gradient(to left, rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.605)),url(../imgs/bg_image_1.jpg); 
+ background-position: center;
+ background-size: cover; 
+ height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.hedcontent h3{
+ letter-spacing: 2px;
+ font-family:monospace;
+ color: white;
+}
+.hedcontent h1{
+    font-size: 50px;
+    color: white;
+}
+.btn{
+    padding: 15px 30px;
+    background-color: rgb(7, 159, 113);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+}
+#close{
+    display: none;
+    width: 20px;
+}
+#menu{
+    display: none;
+    width: 30px;
+}
+/* others styling here */
+.others{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 20%;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.355);
+}
+.card1 img{
+    width: 50px;
+}
+.card1 h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+/* others styling ends here */
+
+/* about styling here */
+.contentabout{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contentabout .contentleft{
+    width: 50vw;
+}
+.contentabout img{
+    width: 300px;
+}
+.contentleft h2{
+    font-style: italic;
+    font-size: 40px;
+    margin: 10px;
+}
+.contentleft p{
+    margin: 20px 0;
+    float: left;
+}
+/*about styling ends here */
+
+/*doctors styling starts here */
+.doctors{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.heding{
+    color: aqua;
+     text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+
+    
+   
+}
+.heding::after{
+    content: '';
+    height: 5px;
+    background-color: blue;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.doc{
+    width: 200px;
+}
+.doc h3{
+    font-family: sans-serif;
+ letter-spacing: 1px;
+ text-transform: capitalize;
+
+}
+.doc p{
+    color: rgb(141, 139, 136);
+}
+.doc img{
+    width: 100%;
+}
+.doc .desc .star img{
+ width: 10px;
+}
+.doc .desc .contact img{
+    width: 20px;
+    margin: 10px 0;
+    border: 1px solid rgb(0, 208, 255);
+    border-radius: 50%;
+    background-color: aqua;
+    
+   
+   }
+
+   /*news styling starts here */
+   .news{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+   }
+   .new{
+    width: 250px;
+   }
+   .new .blognew{
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 10/7;
+   }
+   .new a{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    text-align: center;
+   }
+   .new .details{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+   }
+   
+   .new .desc img{
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+   }
+   .new span{
+    color: rgb(105, 105, 105);
+    text-transform: capitalize;
+    font-size: 13px;
+   }
+   .new a:hover{
+    color: rgb(67, 224, 255);
+   }
+   .new hr{
+    margin-top: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: aqua;
+   }
+   /*news styling ends here */
+/*appointment styling sarts here */
+ form{
+   
+    max-width: 700px;
+    margin: 0 auto;
+ }
+ form .arrange{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+padding: 10px;
+
+}
+.arrange input, .arrange select{
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-top: 1px solid rgb(200, 200, 200);
+    outline: none;
+    margin: 10px;
+}
+::placeholder{
+    color: black;
+}
+.other input,textarea{
+ display: block;
+ width: 100%;
+ padding: 10px 20px;
+ border: none;
+ border-bottom: 1px solid rgb(196, 196, 196);
+ border-top: 1px solid rgb(200, 200, 200);
+ outline: none;
+ margin: 10px 0;
+}
+/*appointment styling ends here */
+
+/* advert styling starts here */
+.advert{
+    background-color: rgba(0, 51, 255, 0.414);
+    min-height:70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.advertdetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advert img{
+    width: 200px;
+
+}
+.advert h1{
+   max-width: 500px;
+    margin: 0 70px;
+}
+/* footer styling starts here */
+.footer{
+    background-color: rgb(63, 62, 62);
+    min-height:70vh;
+    width: 100vw;
+    padding: 40px;
+}
+.footerdetails{
+background-color: rgb(0, 0, 0);
+width: 100%;
+min-height: 50vh;
+padding: 10px;
+}
+.footerdetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  flex-wrap: wrap;
+}
+.footer h1{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.footer a{
+    color: rgb(153, 150, 150);
+    font-family:  monospace;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 10px;
+}
+.footer a:hover{
+ color: rgb(255, 255, 255);
+}
+/* footer styling ebds here */
+/* advert styling ends here */
+@media(max-width:860px){
+    #close{
+        display:block;
+    }
+    #menu{
+        display:block;
+    }
+    nav{
+        position: relative;
+        height: auto;
+    }
+    .navigation{
+        position: absolute;
+        left: -700px;
+        transition: all 2s;
+        top: 11vh;
+        height: 70vh;
+        background-color:rgba(255, 255, 255, 0.827);
+         width: 60vw;
+         
+    }
+    .footerdetails div{
+        margin: 20px 0px;
+    }
+    .activemenu{
+        left: 0;
+    }
+    .navigation a{
+        display:block ;
+        padding: 10px;
+     
+    }
+    .navigation a:hover{
+           background-color: rgb(0, 0, 0);
+           color: rgb(255, 255, 255);
+    }
+    .advertdetails{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* others styling here */
+.others{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.355);
+}
+
+/* othersstyling ends here */
+
+.contentabout .contentleft{
+    width: 90vw;
+}
+.footerdetails{
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: rgb(63, 62, 62);
+    min-height:70vh;
+    width: 100vw;
+    padding: 10px;
+}
+}
+@media(max-width:520px){
+
+    .new{
+        width: 90%;
+       }
+}
